@@ -53,15 +53,9 @@ public class ApiVersioningDemoApp {
 
 
 
-
-
-
-
     public static void main(String[] args) {
         SpringApplication.run(ApiVersioningDemoApp.class, args);
     }
-
-
 
 
     @Configuration
@@ -71,6 +65,5 @@ public class ApiVersioningDemoApp {
             return new ApiVersionRequestMapping("");
         }
     }
-
-
+    
 }
