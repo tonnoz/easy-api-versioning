@@ -65,5 +65,5 @@ public class ApiVersioningDemoApp {
             return new ApiVersionRequestMapping("");
         }
     }
-    
+
 }
